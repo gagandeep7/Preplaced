@@ -31,22 +31,25 @@ class App extends React.Component {
                     <Navbar expand="lg" variant="dark" style={{
                         backgroundColor: '#008AFC', fontFamily: "'Montserrat' ,'sans-serif'",
                         fontSize: '30px',
-                        fontWeight: '800'
+                        fontWeight: '800',
                     }}>
                         <Container>
-                            <Navbar.Brand href="#">PrepPlaced</Navbar.Brand>
+                            <Navbar.Brand href="#">PrePlaced</Navbar.Brand>
                         </Container>
                     </Navbar>
 
-                    <Container className='mt-3'>
+                    <Container className=' mt-4 mx-auto' style={{}}>
                         <Jumbotron style={{ backgroundColor: 'transparent', padding: '0px' }} >
-                            <span style={{
-                                fontFamily: "'Montserrat' ,'sans-serif'",
-                                fontSize: '30px',
-                                fontWeight: '800'
-                            }}>How do I
+                            <div className='ml-sm-10'>
+                                <span style={{
+                                    fontFamily: "'Montserrat' ,'sans-serif'",
+                                    fontSize: '30px',
+                                    fontWeight: '800'
+                                }}>How do I
                              <span style={{ color: '#008AFC' }}> Proceed ?</span>
-                            </span>
+                                </span>
+                            </div>
+
                             <ShowList />
                         </Jumbotron>
 

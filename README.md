@@ -1,2 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-You can see it live at https://preplaced.surge.sh/
+It was task given y an organisation to make clone of ui
+
+# You can see it live at https://preplaced.surge.sh/
